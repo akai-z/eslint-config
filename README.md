@@ -1,1 +1,1 @@
-# ESLint Config Base
+# Node.js ESLint Config Base
