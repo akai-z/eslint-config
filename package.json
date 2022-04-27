@@ -1,5 +1,5 @@
 {
-  "name": "@akai-z/eslint-config",
+  "name": "@akai-z/eslint-config-node",
   "version": "12.0.0",
   "license": "MIT",
   "main": "index.js",
