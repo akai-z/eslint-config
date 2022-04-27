@@ -20,3 +20,7 @@ npm i --save-dev https://git@github.com/akai-z/node-eslint-config
 ```shell
 yarn add --dev akai-z/node-eslint-config
 ```
+
+## Usage
+
+Extend the shareable ESLint config `@akai-z/eslint-config-node` in the project ESLint config file.
