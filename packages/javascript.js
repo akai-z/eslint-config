@@ -5,8 +5,12 @@ module.exports = {
   env: {
     node: true,
   },
+  plugins: [
+    'jest',
+  ],
   extends: [
     'eslint:recommended',
+    'plugin:jest/recommended',
     'prettier',
   ],
 };
