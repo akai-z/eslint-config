@@ -23,4 +23,12 @@ yarn add --dev akai-z/node-eslint-config
 
 ## Usage
 
-Extend the shareable ESLint config `@akai-z/eslint-config-node` in the project ESLint config file.
+Extend the shareable ESLint config in your project ESLint config file.  
+- For JavaScript projects, extend `@akai-z/eslint-config-node/packages/javascript` module.
+```json
+"extends": "@akai-z/eslint-config-node/packages/javascript"
+```
+- For TypeScript projects, extend `@akai-z/eslint-config-node/packages/typescript` module.
+```json
+"extends": "@akai-z/eslint-config-node/packages/typescript"
+```
